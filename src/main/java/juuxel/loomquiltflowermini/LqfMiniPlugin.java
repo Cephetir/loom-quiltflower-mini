@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Map;
 
 public class LqfMiniPlugin implements Plugin<Project> {
-    private static final List<String> LOOMS = Arrays.asList("fabric-loom", "dev.architectury.loom");
+    private static final List<String> LOOMS = Arrays.asList("fabric-loom", "dev.architectury.loom", "gg.essential.loom", "gg.essential.architectury-loom");
     private boolean applied = false;
 
     @Override
